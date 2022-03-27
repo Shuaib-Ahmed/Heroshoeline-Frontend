@@ -1,0 +1,47 @@
+.analyticsForm{
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 2rem 1rem;
+    padding: 1rem;
+}
+.analyticsForm div{
+    display: flex;
+    align-items: center;
+}
+.analyticsForm button{
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 2rem;
+    font-size: 2rem;
+    border: none;
+    transition: 0.3s all ease-in-out;
+}
+.analyticsForm button:hover{
+    background: rgb(54, 53, 53);
+}
+
+.analyticsInfo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.analyticsInfo div{
+    color: white;
+    padding: 1rem 2rem;
+    margin: 1rem 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-radius: 2rem;
+}

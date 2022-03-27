@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Mukta:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+
+  /* colors */
+  --darkBackground: #2b2d42;
+  --lightBackground: #edf2f4;
+  --redBackground: #df4b5c;
+  --greyBackground: #8d99ae;
+  --greenBackground: rgb(37, 155, 37);
+
+  /* fonts */
+  --primaryFont: "Mukta", sans-serif;
+  --secondaryFont: "Dancing Script", cursive;
+
+  /* transition */
+  --mainTransition: all 0.5s ease-in-out;
+}
+body {
+  font-family: var(--primaryFont);
+}
+
+/* text */
+h1 {
+  font-size: 3rem;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+p {
+  font-size: 2rem;
+  padding: 1rem;
+  line-height: 1.4;
+}
+
+/* links */
+a {
+  text-decoration: none;
+}
+
+/* image */
+img {
+  object-fit: cover;
+}
+
+/* title */
+.page_title {
+  text-decoration: underline;
+  text-align: center;
+}
+
+/* button */
+.btn {
+  border: none;
+  cursor: pointer;
+  font-size: 1.75rem;
+  font-family: var(--primaryFont);
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  transition: var(--mainTransition);
+}
+.white_btn {
+  background-color: var(--lightBackground);
+  color: #333;
+}
+.white_btn:hover {
+  background-color: rgb(238, 198, 198);
+}
+.red_btn {
+  background-color: var(--redBackground);
+  color: var(--lightBackground);
+}
+.red_btn:hover {
+  background-color: #c93748;
+}
+.dark_btn {
+  background-color: var(--darkBackground);
+  color: var(--lightBackground);
+}
+.dark_btn:hover {
+  background-color: #373b61;
+}
+.green_btn {
+  background-color: var(--greenBackground);
+  color: var(--lightBackground);
+}
+.green_btn:hover {
+  background: green;
+}
+
+/* media query for tablet */
+@media only screen and (max-width: 996px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+/* media query for mobile */
+@media only screen and (max-width: 556px) {
+  html {
+    font-size: 8px;
+  }
+}

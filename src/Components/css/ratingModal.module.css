@@ -1,0 +1,58 @@
+.mainContainer {
+  width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 2rem 1rem;
+}
+
+.mainContainer h1 {
+  font-family: var(--secondaryFont);
+}
+
+.mainContainer .ratingForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 90%;
+  padding: 1rem 0;
+}
+.mainContainer .ratingForm div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  width: 100%;
+  margin: 1rem 0;
+}
+.mainContainer .ratingForm div label {
+  font-size: 2rem;
+}
+.mainContainer .ratingForm div input,
+.mainContainer .ratingForm div textarea {
+  font-size: 2rem;
+  width: 50%;
+  padding: 0.5rem;
+}
+.mainContainer .ratingForm div textarea{
+    height: 5rem;
+}
+
+.mainContainer .ratingForm button {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 556px) {
+  .mainContainer {
+    width: 280px;
+  }
+  .mainContainer .ratingForm {
+    width: 100%;
+  }
+}

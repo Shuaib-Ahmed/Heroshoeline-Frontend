@@ -1,0 +1,10 @@
+.summaryDetails{
+    display: flex;
+    align-items: center;
+}
+.progressBar{
+    height: 1rem;
+
+    display: flex;
+    align-items: center;
+}

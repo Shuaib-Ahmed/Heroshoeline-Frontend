@@ -1,0 +1,47 @@
+.carouselContainer {
+  width: 30vw;
+  position: relative;
+}
+
+.slider {
+  width: 100%;
+}
+
+.slide {
+  max-height: 40vh;
+  width: 100%;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.backBtn, .nextBtn{
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%, -50%);
+  font-size: 2.5rem;
+}
+.backBtn{
+  left: -1rem;
+}
+.nextBtn{
+  right: -1rem;
+}
+
+
+
+@media only screen and (max-width: 996px) {
+  .carouselContainer {
+    width: 80vw;
+  }
+  .slide {
+    max-height: 45vh;
+  }
+}
+@media only screen and (max-width: 556px) {
+  .slide {
+    max-height: 50vh;
+  }
+}

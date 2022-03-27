@@ -1,0 +1,28 @@
+.sectionContainer{
+    padding: 3rem 0;
+}
+.sectionHeader{
+    font-family: var( --secondaryFont);
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+
+    color: var(--lightBackground);
+
+    margin: 1rem 0;
+}
+.productContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    margin: 0rem auto;
+    padding: 2.5rem 0;
+    width: 80vw;
+}
+
+@media only screen and (max-width: 556px){
+    .productContainer{
+        width: 95vw;
+    }
+}

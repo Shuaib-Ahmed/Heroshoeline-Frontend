@@ -1,0 +1,60 @@
+.container {
+  background-color: var(--lightBackground);
+
+  padding: 0 2rem 3rem 2rem;
+  text-align: center;
+}
+
+.mainHeader {
+  font-family: var(--secondaryFont);
+  color: var(--redBackground);
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.reviewContainer {
+  display: flex;
+  flex-direction: column;
+}
+.reviewInfo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  border-bottom: 1px dashed black;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.reviewInfo h3 {
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+}
+.reviewContainer button {
+  margin-top: 2rem;
+}
+
+.modalContainer {
+  padding: 2rem 1rem;
+  width: 50vw;
+}
+
+@media only screen and (max-width: 520px) {
+  .contentContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .reviewContainer {
+    margin-top: 3rem;
+  }
+
+  .modalContainer {
+    width: 80vw;
+  }
+}

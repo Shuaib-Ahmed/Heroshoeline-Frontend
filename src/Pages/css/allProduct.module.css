@@ -1,0 +1,10 @@
+.container{
+    background-color: var(--lightBackground);
+    min-height: 100vh;
+}
+
+.productContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,37 @@
+.mainContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    max-width: 90vw;
+    margin: 2rem auto;
+}
+
+.itemContainer{
+    background-color: var(--lightBackground);
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem 0.5rem;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+}
+.itemContainer img{
+    width: 100px;
+}
+.itemContainer .buttonContainer{
+    width: 90%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.itemContainer .buttonContainer .edit_btn i{
+    color: var( --greenBackground);
+}
+.itemContainer .buttonContainer .delete_btn i{
+    color: var(--redBackground);
+}

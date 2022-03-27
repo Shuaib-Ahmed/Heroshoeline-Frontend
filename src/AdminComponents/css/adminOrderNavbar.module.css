@@ -1,0 +1,32 @@
+.navContainer {
+    width: 90vw;
+    margin: 0rem auto;
+    padding: 2rem 0;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .navContainer a {
+    font-size: 2rem;
+    padding: 0.5rem 1.5rem;
+    margin: 0 0.5rem;
+    color: var(--darkBackground);
+  }
+  
+  .navContainer .imactive {
+    border-bottom: 1px solid black;
+  }
+  
+  .navContainer .active {
+    background: var(--redBackground);
+    color: #fff;
+  }
+  
+  @media only screen and (max-width: 556px) {
+    .navContainer {
+      width: 100vw;
+    }
+  }
+  

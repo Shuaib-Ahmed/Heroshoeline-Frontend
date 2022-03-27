@@ -1,0 +1,45 @@
+.cardContainer {
+  width: 200px;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+
+  margin: 1rem 0.5rem;
+  padding: 1rem 0.5rem;
+  cursor: pointer;
+}
+.cardContainer img {
+  width: 80%;
+}
+.cardContainer h3 {
+  font-size: 1.75rem;
+}
+.infoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.averageReview {
+  background: var(--greenBackground);
+  color: var(--lightBackground);
+  padding: 0.5rem 1rem;
+
+  font-size: 1.25rem;
+}
+.price {
+  background: var(--darkBackground);
+  color: var(--lightBackground);
+  padding: 0.5rem 1rem;
+
+  font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 556px) {
+  .cardContainer {
+    width: 150px;
+  }
+}

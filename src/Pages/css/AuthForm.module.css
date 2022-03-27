@@ -1,0 +1,101 @@
+.auth_outter_container {
+  background: var(--darkBackground);
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth_inner_container {
+  background: var(--lightBackground);
+  width: 40vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth_logo {
+  width: 200px;
+  height: 100px;
+}
+
+.auth_header {
+  margin: 1rem 0;
+}
+
+.auth_form {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.auth_form div {
+  width: 80%;
+  margin: 0.5rem 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+.auth_form div label,
+.auth_form div input {
+  font-size: 2rem;
+}
+.auth_form div input {
+  padding: 0.5rem 1rem;
+  width: 70%;
+  outline: none;
+  border-radius: 0.5rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0.4);
+}
+.auth_form div input:focus {
+  border: 0.2rem solid green;
+}
+
+.auth_button {
+  width: 80%;
+
+  background: #333;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  cursor: pointer;
+
+  margin: 1.5rem 0;
+  padding: 0.75rem;
+
+  transition: var(--mainTransition);
+}
+.auth_button:hover {
+  background: rgb(85, 80, 80);
+}
+
+@media only screen and (max-width: 1400px) {
+  .auth_inner_container {
+    width: 50vw;
+  }
+  .auth_form div {
+    width: 90%;
+  }
+  .auth_button {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 996px) {
+  .auth_inner_container {
+    width: 65vw;
+  }
+}
+
+@media only screen and (max-width: 556px) {
+  .auth_inner_container {
+    width: 90vw;
+  }
+  .auth_form div input {
+    width: 60%;
+  }
+}

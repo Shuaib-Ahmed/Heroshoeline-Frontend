@@ -1,0 +1,15 @@
+.review_detail{
+    display: flex;
+}
+.average_rating{
+    margin: 0rem 1rem;
+    background-color: var( --greenBackground);
+}
+.total_rating{
+    background-color: var(--darkBackground);
+}
+.average_rating, .total_rating{
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    color: var(--lightBackground);
+}

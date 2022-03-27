@@ -1,0 +1,45 @@
+.navbar {
+  background: var(--redBackground);
+  color: var(--lightBackground);
+  padding: 0 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 2;
+  cursor: pointer;
+}
+
+.nav_logo_container {
+  display: flex;
+  align-items: center;
+}
+.nav_logo_container img {
+  width: 7rem;
+}
+.nav_logo_container h3 {
+  font-family: var(--secondaryFont);
+}
+
+.nav_icons_container i {
+  font-size: 2.5rem;
+  margin-right: 2rem;
+  cursor: pointer;
+  color: var(--lightBackground);
+}
+
+@media only screen and (max-width: 556px) {
+  .navbar {
+    padding: 0.5rem 1.5rem;
+  }
+  .nav_message,
+  .nav_logo_container img {
+    display: none;
+  }
+}

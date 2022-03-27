@@ -1,0 +1,20 @@
+.mainContainer{
+    width: 60vw;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.mainContainer input{
+    padding: 0 1rem;
+    width: 70%;
+}
+
+@media only screen and (max-width: 556px){
+    .mainContainer{
+        width: 90vw;
+    }
+    .mainContainer input{
+        width: 80%;
+    }
+}

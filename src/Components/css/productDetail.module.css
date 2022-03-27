@@ -1,0 +1,60 @@
+.mainConatiner{
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 2rem 1rem;
+}
+
+.priceContainer{
+    display: flex;
+    color: var(--redBackground);
+}
+.priceContainer .cutPrice{
+    text-decoration: line-through;
+    color: #333;
+}
+
+.moreDetail{
+    display: flex;
+    align-items: center;
+}
+.moreDetail p{
+    margin-top: 0;
+}
+.moreDetail .colorBox{
+    width: 30px;
+    height: 30px;
+}
+
+.sizeContainer{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+}
+.sizeContainer label, .sizeContainer select{
+    font-size: 2rem;
+}
+.sizeContainer select{
+    margin: 0 1rem;
+    padding: 0rem 1rem;
+}
+.sizeContainer .redHeading{
+    color: var(--redBackground);
+}
+.sizeContainer .greenHeading{
+    color: var(--greenBackground);
+}
+
+.buttonContainer{
+    margin: 0.5rem 0 2rem 1rem;
+}
+
+@media only screen and (max-width: 996px) {
+    .mainConatiner{
+        width: 95vw;
+        margin: 1rem 0;
+    }
+}

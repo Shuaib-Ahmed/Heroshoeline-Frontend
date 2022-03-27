@@ -1,0 +1,50 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.orderContainer {
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 400px;
+  margin: 1rem;
+  padding: 2rem 1rem;
+
+  cursor: pointer;
+}
+
+.orderContainer .mainDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orderContainer .mainDetail img {
+  width: 70px;
+}
+
+.orderContainer .moreDetail {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.orderContainer .moreDetail .status{
+    background-color: var(--greenBackground);
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.buttonContainer{
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 1rem 0;
+}
+.buttonContainer button{
+  margin: 0.5rem;
+}
